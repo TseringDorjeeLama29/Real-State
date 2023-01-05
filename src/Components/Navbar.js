@@ -6,17 +6,17 @@ export default function Navbar() {
     <>
       <div className="container-fluid bg-black p-4">
         <div className="row text-white align-items-center">
-          <div className="col-lg-2 ">
-            <Link to={"/"}><img src={require("../Assets/img/Logo.png")} alt="Logo" className='w-50' /></Link>
+          <div className="col-lg-2 text-lg-start text-center">
+            <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='w-50 ' /></Link>
           </div>
-          <div className="col-lg-2 border-start ">
-            <p className='mb-0 ms-4'>Unique Places to Stay</p>
+          <div className="col-lg-2 border-start d-none d-sm-block">
+            <p className='mb-0 ms-4 '>Unique Places to Stay</p>
           </div>
           <div className="col-lg-5 ">
             <nav className="navbar  navbar-expand-lg bg-black ">
               <div className="container-fluid ">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon" />
+                <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon " />
                 </button>
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-2 mb-2 mb-lg-0 ">     
@@ -102,7 +102,7 @@ export default function Navbar() {
             </nav>
 
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 d-none d-sm-block">
             <div className="navbar-right"></div>
              <ul className='mb-0'>
                  <li className='border-start d-inline'><a href="" className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i></a></li>
