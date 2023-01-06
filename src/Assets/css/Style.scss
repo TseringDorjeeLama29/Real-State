@@ -3,8 +3,6 @@
  @import "./BreakPoints.scss";
 
 * {
-    padding: 0 !important;
-    margin: 0 !important;
     box-sizing: border-box !important;
 }
 
@@ -51,21 +49,21 @@ body {
     background-repeat: no-repeat;
     height: 70vh;
     @include media('<=tablet') {
-        height: 130vh;
+        height: 100vh;
     }
     h1 {
         font-size: 72px;
         line-height: 72px;
         font-weight: 300 !important;
-        @include media('<=phone') {
+        @include media('<phone') {
             font-size: 44px;
             line-height: 44px;
             margin-bottom: 10px !important;
             padding-top: 0 !important;
         }
-        @include media('>phone', '<=tablet') {
-            font-size: 54px;
-            line-height: 54px;
+        @include media('>=phone', '<=tablet') {
+            font-size: 50px;
+            line-height: 50px;
             margin-bottom: 10px !important;
             padding-top: 0 !important;
         }
