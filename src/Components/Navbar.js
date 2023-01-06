@@ -13,7 +13,7 @@ export default function Navbar() {
             <p className='mb-0 ms-4 '>Unique Places to Stay</p>
           </div>
           <div className="col-lg-5 ">
-            <nav className="navbar  navbar-expand-lg bg-black ">
+            <nav className="navbar navbar-expand-lg bg-black ">
               <div className="container-fluid ">
                 <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon " />
