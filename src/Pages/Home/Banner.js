@@ -15,11 +15,11 @@ export default function Banner() {
                             <li className='border-start'><a href=""><i class="bi bi-bag"></i> Shop</a></li>
                         </ul>
                     </div>
-                    <div className="d-flex justify-content-center my-3">
-                        <div className="flex-left me-5">
+                    <div className="banner-button d-flex justify-content-center my-3">
+                        <div className="flex-left me-1">
                         <div className="dropdown">
                             <button className="btn btn-light py-2 px-5 dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown button
+                                All Location
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
                                 <li><a className="dropdown-item" href="#">Action</a></li>
@@ -32,7 +32,7 @@ export default function Banner() {
                         <div className="flex-right">
                         <div className="dropdown">
                             <button className="btn btn-light py-2 px-5 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown button
+                                All Status
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
                                 <li><a className="dropdown-item" href="#">Action</a></li>
