@@ -11,10 +11,10 @@ export default function Banner() {
                     <div className="items my-4">
                         <ul>
                             <li><a href=""><i class="bi bi-buildings"></i> Apartment</a></li>
-                            <li className='border-start'><a href=""><i class="bi bi-people-fill"></i> Condominium</a></li>
-                            <li className='border-start'><a href=""><i class="bi bi-house"></i> House</a></li>
-                            <li className='border-start'><a href=""><i class="bi bi-printer"></i> Office</a></li>
-                            <li className='border-start'><a href=""><i class="bi bi-bag"></i> Shop</a></li>
+                            <li className='border-start'><a href=""><i className="bi bi-people-fill"></i> Condominium</a></li>
+                            <li className='border-start'><a href=""><i className="bi bi-house"></i> House</a></li>
+                            <li className='border-start'><a href=""><i className="bi bi-printer"></i> Office</a></li>
+                            <li className='border-start'><a href=""><i className="bi bi-bag"></i> Shop</a></li>
                         </ul>
                     </div>
                     <div className="banner-button d-flex justify-content-center my-3">

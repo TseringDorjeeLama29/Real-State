@@ -7,7 +7,7 @@ export default function FeatureItem() {
             <div className="container  my-5">
             <h1 className='my-3'>Check out our featured items</h1>
             <div className="row g-3">
-              {FeauredItemData.map((value) => (
+              {FeauredItemData.map((value) => ( 
                   <div className="col-12 col-md-6 col-lg-4 my-4 ">
                 <div className="card mx-3" >
                   <p className='position-absolute top-0 end-0 bg-success text-light p-1 b-3'>{value.condition}</p>
