@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <>
-      <div className="container-fluid bg-black p-4">
+      <div className="Navbar-container container-fluid bg-black p-4 position-fixed ">
         <div className="row text-white align-items-center">
           <div className="navbar-img col-lg-2 text-lg-start text-center">
             <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='w-50 ' /></Link>
@@ -15,8 +15,8 @@ export default function Navbar() {
           <div className="col-lg-5 ">
             <nav className="navbar navbar-expand-lg bg-black ">
               <div className="container-fluid ">
-                <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon " />
+                <button className="navbar-toggler bg-white fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon" />
                 </button>
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-2 mb-2 mb-lg-0 ">     

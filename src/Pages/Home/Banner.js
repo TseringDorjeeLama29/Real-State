@@ -4,7 +4,9 @@ import Button from '../../Components/ui/Button'
 export default function Banner() {
     return (
         <>
-            <div className="container-fluid banner_bg_img text-center py-5">               
+            <div className="container-fluid banner_bg_img text-center py-5 position-relative"> 
+                <div className="container position-absolute top-50 start-50 translate-middle">
+                                  
                     <h1 className='text-white pt-5'>All you need is one click away.</h1>
                     <div className="items my-4">
                         <ul>
@@ -18,7 +20,7 @@ export default function Banner() {
                     <div className="banner-button d-flex justify-content-center my-3">
                         <div className="flex-left me-1">
                         <div className="dropdown">
-                            <button className="btn btn-light py-2 px-5 dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button className="btn btn-light py-2 px-5 dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All Location
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
@@ -31,7 +33,7 @@ export default function Banner() {
                         </div>
                         <div className="flex-right">
                         <div className="dropdown">
-                            <button className="btn btn-light py-2 px-5 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button className="btn btn-light py-2 px-5 dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All Status
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
@@ -43,6 +45,7 @@ export default function Banner() {
                         </div>
                     </div>
                     <Button />
+                    </div>
             </div>
         </>
     )
