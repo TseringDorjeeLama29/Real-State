@@ -19,24 +19,31 @@ body {
 
 .Navbar-container {
     z-index: 10;
-    // @include media('<=desktop') {
-    //     // padding: 0 !important;
-    // }
-    .navbar-img img {
-        @include media('<=phone') {
-            width: 150px !important;
+
+    .Navbar-flex {
+
+        @include media('<=desktop') {
+            display: flex !important;
+            flex-wrap: nowrap;
         }
-        @include media('>phone', '<=tablet') {
-            width: 158px !important;
-        }
-        @include media('>tablet', '<=992px') {
-            width: 192px !important;
+        .navbar-img img {
+            @include media('<=phone') {
+                width: 150px !important;
+            }
+
+            @include media('>phone', '<=tablet') {
+                width: 158px !important;
+            }
+
+            @include media('>tablet', '<=992px') {
+                width: 192px !important;
+            }
         }
     }
 }
 
 .navbar-dropdown:hover .navbar-dropdown-item {
-    @include media('>991px') {
+    @include media('>=991px') {
         display: block !important;
     }
 }
@@ -53,7 +60,7 @@ body {
 .navbar-main {
     ul {
         li a {
-            padding: 0 10px !important;
+            padding: 0 15px !important;
         }
     }
 }

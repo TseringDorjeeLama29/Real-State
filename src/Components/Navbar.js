@@ -5,17 +5,17 @@ export default function Navbar() {
   return (
     <>
       <div className="Navbar-container container-fluid bg-black p-4 position-fixed ">
-        <div className="row text-white align-items-center">
+        <div className="Navbar-flex row text-white align-items-center">
           <div className="navbar-img col-lg-2 text-lg-start text-center">
             <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='w-50 ' /></Link>
           </div>
           <div className="col-lg-2 border-start d-none d-lg-block">
             <p className='mb-0 ms-4 '>Unique Places to Stay</p>
           </div>
-          <div className="col-lg-5 ">
+          <div className="col-lg-5">
             <nav className="navbar navbar-expand-lg bg-black ">
               <div className="container-fluid ">
-                <button className="navbar-toggler bg-white fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler bg-white fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
