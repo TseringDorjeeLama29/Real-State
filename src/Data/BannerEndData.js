@@ -9,8 +9,8 @@ const BannerEndData = [
         "Structure": "1 Bedroom",
         "Accommodation": "Furnished",
         "Heating": "Floor Heating",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/02/H1-prop-single-img-1.jpg",
-        "img": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/02/H1-prop-single-img-2.jpg",
+        "image": "/image/banner/bg-1.jpg",
+        "img": "/image/banner/bg-2.jpg",
     }
 ]
 export default BannerEndData;

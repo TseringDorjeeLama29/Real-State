@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SwiperData from "../../Data/SwiperData";
 import { Link } from "react-router-dom";
+import { Autoplay } from "swiper";
 
 export default function SwiperPlace() {      
   return (
@@ -11,6 +12,13 @@ export default function SwiperPlace() {
                     <Swiper
                     spaceBetween={0}
                     slidesPerView={5}
+                    loop = { true }
+                    loopFillGroupWithBlank = {true}
+                    autoplay={{
+                      delay:2500,
+                      disableOnInteraction:false,
+                  }}
+                  modules={[Autoplay]}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                   >
@@ -27,7 +35,7 @@ export default function SwiperPlace() {
                      ))}                                
                   </Swiper>
         </div>
-        <div className="container-fluid bg-light p-5">
+        <div className="container-fluid  p-5">
           <div className="container d-xl-flex flex-row  d-lg-flex align-items-center ">
             <div className="col-lg- fs-4 fw-bolder mx-5"><h4>Find a New Palace</h4></div>
             <div className="palace col-lg-">

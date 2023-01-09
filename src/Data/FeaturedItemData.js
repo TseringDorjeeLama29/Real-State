@@ -5,7 +5,7 @@ const FeauredItemData = [
         "body": "New York - US",  
         "condition": "For Rent",
         "price": "$2500.00",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/02/H1-prop-feat-img-1.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-1.jpg",
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@ const FeauredItemData = [
         "body": "London – England", 
         "condition": "For Sale", 
         "price": "$80.000",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/03/H1-prop-feat-img-2.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-2.jpg",
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@ const FeauredItemData = [
         "body": "New York – US",  
         "condition": "Just Sold",
         "price": "$5.990",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/03/H1-prop-feat-img-3.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-3.jpg",
 
     },
     {
@@ -30,7 +30,7 @@ const FeauredItemData = [
         "body": "Paris – France",  
         "condition": "For Rent",
         "price": "$5.990",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/03/H1-prop-feat-img-4.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-4.jpg",
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@ const FeauredItemData = [
         "body": "Amsterdam – Netherlands",  
         "condition": "Just Sold",
         "price": "$2.990",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/03/H1-prop-feat-img-5.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-5.jpg",
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@ const FeauredItemData = [
         "body": "Lucerne – Switzerland",  
         "condition": "For Sale",
         "price": "$75.000",
-        "image": "https://eiddo.qodeinteractive.com/wp-content/uploads/2018/03/H1-prop-feat-img-6.jpg",
+        "image": "/image/FeatureImg/H1-prop-feat-img-6.jpg",
     },
 
 ]

@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .btn-component {
@@ -156,4 +156,29 @@ body {
         }
     }
 }
+
+.heaven-text {
+    font-size: 7rem;
+    font-weight: 300;
+    line-height: 170px;
+    bottom: -9%;
+    opacity: .5;
+    @include media("<=tablet", ">phone") {
+        font-size: 4rem;
+    }
+    @include media("<=phone") {
+        font-size: 2rem;
+    }
+    @include media("<=LGdesktop", ">tablet") {
+        font-size: 5.5rem;
+    }
+
+    animation: heaven 15s linear infinite forwards;
+    @keyframes heaven {
+        0% {transform: translateX(100%);}
+
+        100% {transform: translateX(-100%);}
+    }
+}
+
 

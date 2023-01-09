@@ -19,7 +19,7 @@ export default function BannerMid() {
                     </div>
                 </div>
                 <div className="col-lg-6 col-12">
-                    <img src={require('../../Assets/img/Banner2.jpg')} alt="background image" />
+                    <img src={require('../../Assets/img/Banner2.jpg')} alt="background image" className='w-100' />
                 </div>
             </div>
         </div>
