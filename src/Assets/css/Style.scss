@@ -87,7 +87,6 @@ body {
     }
     h1 {
         font-size: 72px;
-        line-height: 72px;
         font-weight: 300 !important;
         @include media('<phone') {
             font-size: 44px;
@@ -132,4 +131,17 @@ body {
     }
 }
 
+.palace {
+    ul {
+        list-style: none !important;
+        li {
+            line-height: 30px !important;
+         a {
+                text-decoration: none;
+                padding: 0 25px;
+                color: #000;
+            }
+        }
+    }
+}
 
