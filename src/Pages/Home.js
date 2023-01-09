@@ -9,6 +9,7 @@ import "swiper/css/bundle";
 import "../Assets/css/Swiper.css";
 import BannerEnd from './Home/BannerEnd';
 import CategoryPeople from './Home/CategoryPeople';
+import SwiperEnd from './Home/SwiperEnd';
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <SwiperPlace />
         <BannerEnd />
         <CategoryPeople />
+        <SwiperEnd />
     </>
   )
 }
