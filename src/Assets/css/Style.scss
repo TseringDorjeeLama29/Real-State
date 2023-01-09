@@ -3,12 +3,12 @@
  @import "./BreakPoints.scss";
 
 * {
-    box-sizing: border-box !important;
-    overflow-x: hidden;
+    box-sizing: border-box !important; 
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .btn-component {
@@ -141,6 +141,18 @@ body {
                 padding: 0 25px;
                 color: #000;
             }
+        }
+    }
+}
+
+.banner-end {
+    .banner-end-absolute {
+        top: -41px;
+        right: 46px;
+    }
+    .banner-end-details {
+        &> p {
+            line-height: 27px;
         }
     }
 }

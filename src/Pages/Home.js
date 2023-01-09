@@ -7,6 +7,7 @@ import StaffMembers from './Home/StaffMembers'
 import SwiperPlace from './Home/SwiperPlace'
 import "swiper/css/bundle";
 import "../Assets/css/Swiper.css";
+import BannerEnd from './Home/BannerEnd';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <BannerMid />
         <StaffMembers />
         <SwiperPlace />
+        <BannerEnd />
     </>
   )
 }
