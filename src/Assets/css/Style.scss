@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden; 
+    background: #fff;
 }
 
 .btn-component {
@@ -181,4 +182,9 @@ body {
     }
 }
 
-
+.footer-logo {
+    width: 50% !important;
+    @include media("<=tablet") {
+        width: 25% !important;
+    }
+}

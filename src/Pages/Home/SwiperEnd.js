@@ -9,7 +9,7 @@ import LogoData from '../../Data/LogoData';
 export default function SwiperEnd() {
   return (
     <>
-        <div className="container-fluid my-4">
+        <div className="container-fluid mt-5">
                     <Swiper
                     spaceBetween={20}
                     slidesPerView={4}
@@ -36,8 +36,8 @@ export default function SwiperEnd() {
                      ))}                                                 
                   </Swiper>
         </div>
-        <div className="container-fluid py-5">
-        <Swiper className='py-5 text-dark'
+        <div className="container-fluid">
+        <Swiper className='py-3 text-dark'
                     spaceBetween={0}
                     slidesPerView={7}
                     loop = { true }

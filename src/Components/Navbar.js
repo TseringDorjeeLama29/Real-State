@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="Navbar-container container-fluid bg-black p-4 position-fixed ">
         <div className="Navbar-flex row text-white align-items-center">
           <div className="navbar-img col-lg-2 text-lg-start text-center">
-            <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='w-50 ' /></Link>
+            <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='footer-logo ' /></Link>
           </div>
           <div className="col-lg-2 border-start d-none d-lg-block">
             <p className='mb-0 ms-4 '>Unique Places to Stay</p>
