@@ -21,7 +21,7 @@ export default function Home() {
         <StaffMembers />
         <SwiperPlace />
         <BannerEnd />
-        <CategoryPeople />
+        <CategoryPeople />  
         <SwiperEnd />
     </>
   )

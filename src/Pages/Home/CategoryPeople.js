@@ -9,7 +9,7 @@ export default function CategoryPeople() {
           <div className="row g-3">
             {CategoryPeopleData.map((value) => (
                     <div className="col-lg-3 col-md-6 col-12 text-center">
-                      <img src={value.img} alt="" className='' />
+                      <img src={value.img} alt="" className='w-100' />
                       <h5 className=''>{value.title}</h5>
                       <p className='text-secondary'>{value.body}</p>
                     </div>

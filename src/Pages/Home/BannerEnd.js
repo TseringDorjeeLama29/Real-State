@@ -12,9 +12,9 @@ export default function BannerEnd() {
                             <div className="row g-5 z">
                                 <div className="col-lg-8">
                                     <div className="position-relative">
-                                        <img src={val.image} alt=""  className='w-100'/>
+                                        <img src={val.image} alt={val.title}  className='w-100'/>
                                         <div className="banner-end-absolute position-absolute">
-                                            <img src={val.img} alt="" className='w-100' />
+                                            <img src={val.img} alt={val.title} className='w-100' />
                                         </div>
                                     </div>
                                 </div>

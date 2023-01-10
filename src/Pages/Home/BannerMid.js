@@ -4,7 +4,7 @@ export default function BannerMid() {
   return (
     <>
         <div className="container-fluid">
-            <div className="row">
+            <div className="row align-items-center">
                 <div className="col-lg-6 col-12 bg-light p-5">
                     <div className='p-5 ms-4'>
                         <h2 className='fw-light fs-1 my-4'>Newly-launched campaign in Whitby agencies</h2>
