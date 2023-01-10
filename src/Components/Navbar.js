@@ -24,11 +24,13 @@ export default function Navbar() {
                       <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Home
                       </a>
-                      <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
+                      <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">Main Home</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Real State Agency</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Apartments Home</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Map Home</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">City Properties</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -37,11 +39,13 @@ export default function Navbar() {
                       <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Pages
                       </a>
-                      <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
+                      <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">About Us</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Process</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Pricing Packages</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Contact Us</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">404 page</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -50,11 +54,14 @@ export default function Navbar() {
                       <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Listings
                       </a>
-                      <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
+                      <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">Property List</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Profiles</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Agency</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Agent</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Owner</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">User Dashboard</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -64,10 +71,11 @@ export default function Navbar() {
                         Blog
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">Right Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Left Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">No Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Single Post</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -76,11 +84,12 @@ export default function Navbar() {
                       <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Shop
                       </a>
-                      <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
+                      <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">Shop List</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Shop Single</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Shop Layouts</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Shop Pages</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -89,11 +98,13 @@ export default function Navbar() {
                       <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Elements
                       </a>
-                      <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><a className="dropdown-item text-white" href="#">Action</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Another action</a></li>
+                      <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item text-white" href="#">Property</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Presentation</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Infographic</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Classic</a></li>
+                        <li><a className="dropdown-item text-secondary" href="#">Typographic</a></li>
                       </ul>
                     </li>
                   </ul>
