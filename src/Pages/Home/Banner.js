@@ -24,9 +24,12 @@ export default function Banner() {
                                 All Location
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="#">All Location</a></li>
+                                <li><a className="dropdown-item" href="#">Amseterdam</a></li>
+                                <li><a className="dropdown-item" href="#">London</a></li>
+                                <li><a className="dropdown-item" href="#">Lucerne</a></li>
+                                <li><a className="dropdown-item" href="#">New york</a></li>
+                                <li><a className="dropdown-item" href="#">Paris</a></li>
                             </ul>
                         </div>
 
@@ -34,12 +37,13 @@ export default function Banner() {
                         <div className="flex-right">
                         <div className="dropdown">
                             <button className="btn btn-light py-2 px-5 dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                All Status
+                                All Statuses
                             </button>
                             <ul className="dropdown-menu py-2 px-5">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="#">All Statuses</a></li>
+                                <li><a className="dropdown-item" href="#">For Rent</a></li>
+                                <li><a className="dropdown-item" href="#">For Sale</a></li>
+                                <li><a className="dropdown-item" href="#">Just Sold</a></li>
                             </ul>
                         </div>
                         </div>

@@ -49,12 +49,15 @@ body {
     }
 }
 
-.banner-button {
+.banner-button {  
     @include media ('<=tablet') {
         display: block !important;
         button {
             margin-bottom: 10px !important;
         }
+    }
+    .flex-left button, .flex-right button {
+        width: 20rem;
     }
 }
 
@@ -186,5 +189,30 @@ body {
     width: 50% !important;
     @include media("<=tablet") {
         width: 25% !important;
+    }
+}
+
+.Feature-card {
+    .card-body {transition: 0.8s; }  
+    &::after {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0rem;
+        left: 0;
+        transition: 0.8s;
+        z-index: -1;
+    } 
+    &:hover {
+        .card-body {
+            transform: translateX(30px);
+        }
+
+        &::after {
+            background: black;
+            top: 1rem;
+            transform: translateX(20px);
+        }
     }
 }

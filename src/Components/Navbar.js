@@ -26,11 +26,11 @@ export default function Navbar() {
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">Main Home</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Real State Agency</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Apartments Home</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Map Home</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">City Properties</a></li>
+                        <li><a className="dropdown-item text-white lh-lg" href="#">Main Home</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Real State Agency</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Apartments Home</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Map Home</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">City Properties</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -56,12 +56,12 @@ export default function Navbar() {
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">Property List</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Profiles</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Agency</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Agent</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Owner</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">User Dashboard</a></li>
+                        <li><a className="dropdown-item text-white lh-lg" href="#">Property List</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Profiles</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Agency</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Agent</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Owner</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">User Dashboard</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -71,11 +71,11 @@ export default function Navbar() {
                         Blog
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black ">
-                        <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">Right Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Left Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">No Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Single Post</a></li>
+                        <li><hr className="dropdown-divider lh-lg" /></li>
+                        <li><a className="dropdown-item text-white lh-lg" href="#">Right Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Left Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">No Sidebar</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Single Post</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -85,11 +85,11 @@ export default function Navbar() {
                         Shop
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
-                        <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">Shop List</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Shop Single</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Shop Layouts</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Shop Pages</a></li>
+                        <li><hr className="dropdown-divider lh-lg" /></li>
+                        <li><a className="dropdown-item text-white lh-lg" href="#">Shop List</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Single</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Layouts</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Pages</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -99,12 +99,12 @@ export default function Navbar() {
                         Elements
                       </a>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
-                        <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">Property</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Presentation</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Infographic</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Classic</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Typographic</a></li>
+                        <li><hr className="dropdown-divider lh-lg" /></li>
+                        <li><a className="dropdown-item text-white lh-lg" href="#">Property</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Presentation</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Infographic</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Classic</a></li>
+                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Typographic</a></li>
                       </ul>
                     </li>
                   </ul>

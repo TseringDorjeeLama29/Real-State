@@ -9,7 +9,7 @@ export default function FeatureItem() {
             <div className="row g-3">
               {FeauredItemData.map((value) => ( 
                   <div className="col-12 col-md-6 col-lg-4 my-4 ">
-                <div className="card mx-3" >
+                <div className="Feature-card position-relative card mx-3" >
                   <p className='position-absolute top-0 end-0 bg-success text-light p-1 b-3'>{value.condition}</p>
                   <img src={value.image} className="card-img-top w-100" alt="..." />
                   <div className="card-body">
