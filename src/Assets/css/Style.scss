@@ -4,10 +4,10 @@
 
 * {
     box-sizing: border-box !important; 
-    overflow-x: hidden; 
 }
 
 body {
+    overflow-x: hidden; 
     font-family: 'Roboto', sans-serif;
     background: #fff;
 }
@@ -215,10 +215,10 @@ body {
             transform: translateX(20px);
         }
     }
-    background-image: url("../../../public/image/Banner/realstate.jpg");
 }
 
 .realState_bg_img {
+    background-image: url("../../../public/image/Banner/realstate.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

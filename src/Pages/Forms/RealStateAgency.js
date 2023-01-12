@@ -2,6 +2,9 @@ import React from 'react'
 import CategoryBestPlaces from '../../Components/Forms/CategoryBestPlaces'
 import StaffAgency from '../../Components/Forms/StaffAgency'
 import Button from '../../Components/ui/Button'
+import BannerEnd from '../Home/BannerEnd'
+import CategoryPeople from '../Home/CategoryPeople'
+import SwiperPlace from '../Home/SwiperPlace'
 
 export default function RealStateAgency() {
   return (
@@ -55,6 +58,9 @@ export default function RealStateAgency() {
       </div>
       <CategoryBestPlaces />
       <StaffAgency />
+      <BannerEnd />
+      <SwiperPlace />
+      <CategoryPeople /> 
 
     </>
   )
