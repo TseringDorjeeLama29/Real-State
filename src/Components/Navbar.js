@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function Navbar() {
   return (
     <>
@@ -21,90 +22,90 @@ export default function Navbar() {
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Home
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white lh-lg" href="#">Main Home</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Real State Agency</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Apartments Home</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Map Home</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">City Properties</a></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to="#">Main Home</Link></li>
+                        <li><Link to={"/realState"} className="dropdown-item text-secondary lh-lg" >Real State Agency</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Apartments Home</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Map Home</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">City Properties</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Pages
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white" href="#">About Us</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Process</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Pricing Packages</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">Contact Us</a></li>
-                        <li><a className="dropdown-item text-secondary" href="#">404 page</a></li>
+                        <li><Link className="dropdown-item text-white" to="#">About Us</Link></li>
+                        <li><Link className="dropdown-item text-secondary" to="#">Process</Link></li>
+                        <li><Link className="dropdown-item text-secondary" to="#">Pricing Packages</Link></li>
+                        <li><Link className="dropdown-item text-secondary" to="#">Contact Us</Link></li>
+                        <li><Link className="dropdown-item text-secondary" to="#">404 page</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Listings
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><a className="dropdown-item text-white lh-lg" href="#">Property List</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Profiles</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Agency</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Agent</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Owner</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">User Dashboard</a></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to="#">Property List</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Profiles</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agency</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agent</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Owner</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">User Dashboard</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Blog
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black ">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><a className="dropdown-item text-white lh-lg" href="#">Right Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Left Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">No Sidebar</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Single Post</a></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to="#">Right Sidebar</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Left Sidebar</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">No Sidebar</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Single Post</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Shop
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><a className="dropdown-item text-white lh-lg" href="#">Shop List</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Single</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Layouts</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Shop Pages</a></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to="#">Shop List</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Single</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Layouts</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Pages</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
                     <li className="nav-item dropdown navbar-dropdown">
-                      <a className="nav-link active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Elements
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><a className="dropdown-item text-white lh-lg" href="#">Property</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Presentation</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Infographic</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Classic</a></li>
-                        <li><a className="dropdown-item text-secondary lh-lg" href="#">Typographic</a></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to="#">Property</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Presentation</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Infographic</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Classic</Link></li>
+                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Typographic</Link></li>
                       </ul>
                     </li>
                   </ul>
@@ -116,13 +117,15 @@ export default function Navbar() {
           <div className="col-lg-3 d-none d-lg-block">
             <div className="navbar-right"></div>
              <ul className='mb-0'>
-                 <li className='border-start d-inline'><a href="" className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i></a></li>
-                 <li className='d-inline'><a className='btn btn-dark text-decoration-none px-4' href="">Add Listings +</a></li>
-                <li className='d-inline'><a href="" className=' text-decoration-none px-4'><i className="bi bi-person-fill text-white"></i></a></li>
+                 <li className='border-start d-inline'><Link to="" className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i></Link></li>
+                 <li className='d-inline'><Link className='btn btn-dark text-decoration-none px-4' to="">Add Listings +</Link></li>
+                <li className='d-inline'><Link to="" className=' text-decoration-none px-4'><i className="bi bi-person-fill text-white"></i></Link></li>
               </ul>
           </div>
         </div>
       </div>
+
+      
     </>
   )
 }
