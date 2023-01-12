@@ -42,7 +42,7 @@ export default function Navbar() {
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><Link className="dropdown-item text-white" to="#">About Us</Link></li>
+                        <li><Link className="dropdown-item text-white" to={"/aboutus"}>About Us</Link></li>
                         <li><Link className="dropdown-item text-secondary" to="#">Process</Link></li>
                         <li><Link className="dropdown-item text-secondary" to="#">Pricing Packages</Link></li>
                         <li><Link className="dropdown-item text-secondary" to="#">Contact Us</Link></li>

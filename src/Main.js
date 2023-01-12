@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Home from './Pages/Home'
 import { Routes, Route, Link } from "react-router-dom";
 import RealStateAgency from './Pages/Forms/RealStateAgency';
+import AboutUs from './Pages/Forms/AboutUs';
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/realState" element={<RealStateAgency />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
       
     </>
