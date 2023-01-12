@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <>
-      <div className="Navbar-container container-fluid bg-black p-4 position-fixed ">
+      <div className="Navbar-container container-fluid bg-black p-4 position-sticky top-0">
         <div className="Navbar-flex row text-white align-items-center">
           <div className="navbar-img col-lg-2 text-lg-start text-center">
             <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='footer-logo ' /></Link>

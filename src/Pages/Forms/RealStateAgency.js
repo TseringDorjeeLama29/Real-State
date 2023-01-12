@@ -1,7 +1,61 @@
 import React from 'react'
+import CategoryBestPlaces from '../../Components/Forms/CategoryBestPlaces'
+import StaffAgency from '../../Components/Forms/StaffAgency'
+import Button from '../../Components/ui/Button'
 
 export default function RealStateAgency() {
   return (
-    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate consectetur reiciendis, reprehenderit dolores minus inventore eius harum quos soluta adipisci expedita et modi distinctio neque voluptates ad corrupti itaque animi, repellat cumque! Nobis necessitatibus doloribus eos commodi dolores quaerat ab tenetur cumque, at dicta quo dolor est placeat soluta libero. Nihil autem, quo officiis temporibus laudantium repellat ab suscipit totam ipsa eaque officia, maiores debitis minus. Neque, libero! Deserunt, pariatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores dolor laboriosam culpa debitis quibusdam, saepe explicabo aperiam, eius, reprehenderit esse voluptatibus ratione facilis nihil voluptatem amet consequuntur placeat? Id, magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium porro aliquam ad aliquid consequuntur, blanditiis a commodi accusantium inventore molestiae ducimus hic harum! Consequatur minus id in ex quidem? Autem.</div>
+    <>
+      <div className="container-fluid realState_bg_img text-center py-5 position-relative">
+        <div className="container position-absolute top-50 start-50 translate-middle">
+
+          <h1 className='text-white pt-5'>Looking for a home made fun.</h1>
+          <div className="items my-4">
+            <ul>
+              <li><a href=""><i class="bi bi-buildings"></i> Apartment</a></li>
+              <li className='border-start'><a href=""><i className="bi bi-people-fill"></i> Condominium</a></li>
+              <li className='border-start'><a href=""><i className="bi bi-house"></i> House</a></li>
+              <li className='border-start'><a href=""><i className="bi bi-printer"></i> Office</a></li>
+              <li className='border-start'><a href=""><i className="bi bi-bag"></i> Shop</a></li>
+            </ul>
+          </div>
+          <div className="banner-button d-flex justify-content-center my-3">
+            <div className="flex-left me-1">
+              <div className="dropdown">
+                <button className="btn btn-light py-2 px-5 dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Location
+                </button>
+                <ul className="dropdown-menu py-2 px-5">
+                  <li><a className="dropdown-item" href="#">All Location</a></li>
+                  <li><a className="dropdown-item" href="#">Amseterdam</a></li>
+                  <li><a className="dropdown-item" href="#">London</a></li>
+                  <li><a className="dropdown-item" href="#">Lucerne</a></li>
+                  <li><a className="dropdown-item" href="#">New york</a></li>
+                  <li><a className="dropdown-item" href="#">Paris</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div className="flex-right">
+              <div className="dropdown">
+                <button className="btn btn-light py-2 px-5 dropdown-toggle text-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Statuses
+                </button>
+                <ul className="dropdown-menu py-2 px-5">
+                  <li><a className="dropdown-item" href="#">All Statuses</a></li>
+                  <li><a className="dropdown-item" href="#">For Rent</a></li>
+                  <li><a className="dropdown-item" href="#">For Sale</a></li>
+                  <li><a className="dropdown-item" href="#">Just Sold</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <Button />
+        </div>
+      </div>
+      <CategoryBestPlaces />
+      <StaffAgency />
+
+    </>
   )
 }
