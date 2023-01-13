@@ -57,7 +57,7 @@ export default function Navbar() {
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to="#">Property List</Link></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to={'/location'}>Property List</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Profiles</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agency</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agent</Link></li>

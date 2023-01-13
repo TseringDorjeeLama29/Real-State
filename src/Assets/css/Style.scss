@@ -275,3 +275,37 @@ body {
         }
     }
 }
+
+.location-right {
+    @include media('<=tablet') {
+        text-align: left;
+        margin: 0 10px !important ;
+    }
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            @include media('<=tablet') {
+                display: block;
+                line-height: 34px;
+                border-left: none !important;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+                padding: 0 10px !important;
+                font-weight: 400;
+                &:hover i {
+                    transform: translate(10px, 10px) !important;
+                    color: black; 
+                    transform: scaleY(1.5);
+                }
+            }
+        }
+    }
+}
+
+.Location-input {
+    width: 75px;
+    display: inline-block !important;
+}

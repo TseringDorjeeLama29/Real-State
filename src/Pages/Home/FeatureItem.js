@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import FeauredItemData from '../../Data/FeaturedItemData'
 
 export default function FeatureItem() {
@@ -13,7 +14,7 @@ export default function FeatureItem() {
                   <p className='position-absolute top-0 end-0 bg-success text-light p-1 b-3'>{value.condition}</p>
                   <img src={value.image} className="card-img-top w-100" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title mb-1 fw-bolder">{value.title}</h5>
+                    <h5 className="card-title mb-1 fw-bolder"><Link to={'/featureItem'} className="text-decoration-none text-dark">{value.title}</Link></h5>
                     <p className="card-text mb-1 fw-semibold">{value.body}</p>
                     <p className="card-text">{value.price}</p>
                   </div>
