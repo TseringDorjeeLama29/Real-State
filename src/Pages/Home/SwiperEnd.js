@@ -4,7 +4,7 @@ import 'swiper/css';
 import { Autoplay } from "swiper";
 import SwiperEndData from '../../Data/SwiperEndData';
 import LogoData from '../../Data/LogoData';
-
+import { Link } from 'react-router-dom';
 
 export default function SwiperEnd() {
   return (
@@ -29,6 +29,7 @@ export default function SwiperEnd() {
                         <SwiperSlide>
                                 
                                 <img src={value.img} alt={value.title} className="w-100" />
+                                <p className="position-absolute btn btn-dark px-3 py-2 start-0 bottom-0"><Link to={'/location'} className="text-decoration-none text-white fw-light">{value.title}</Link></p>
                                     
                         </SwiperSlide>
                                 </div>

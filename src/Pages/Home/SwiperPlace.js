@@ -28,6 +28,7 @@ export default function SwiperPlace() {
                         <SwiperSlide>
                                 
                                 <img src={value.img} alt={value.title} className="" />
+                                <p className="position-absolute btn btn-dark px-3 py-2"><Link to={'/location'} className="text-decoration-none text-white fw-light">{value.title}</Link></p>
                                     
                         </SwiperSlide>
                                 </div>

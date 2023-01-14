@@ -19,7 +19,7 @@ export default function Main() {
         <Route path="/realState" element={<RealStateAgency />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/location" element={<Location />} />
-        <Route path="/featureItem" element={<FeatureItemsDetails />} />
+        <Route path="/featureItem/:featureId" element={<FeatureItemsDetails />} />
       </Routes>
       
     </>
