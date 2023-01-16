@@ -87,7 +87,7 @@ export default function Navbar() {
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to="#">Shop List</Link></li>
+                        <li><Link className="dropdown-item text-white lh-lg" to={'/shop'}>Shop List</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Single</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Layouts</Link></li>
                         <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Pages</Link></li>
