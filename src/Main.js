@@ -8,6 +8,7 @@ import AboutUs from './Pages/Forms/AboutUs';
 import Location from './Pages/Forms/Location';
 import FeatureItemsDetails from './Pages/Details/FeatureItemsDetails';
 import Shop from './Pages/Forms/Shop';
+import ShopItem from './Pages/Details/ShopItem';
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
         <Route path="/location" element={<Location />} />
         <Route path="/featureItem/:featureId" element={<FeatureItemsDetails />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/shopItem/:shopId" element={<ShopItem />} />
       </Routes>
       
     </>

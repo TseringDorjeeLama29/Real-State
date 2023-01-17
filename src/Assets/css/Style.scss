@@ -18,6 +18,11 @@ body {
     }
 }
 
+.text-hover:hover {
+    color: #56A999 !important;
+    transition: .8s;
+}
+
 .Navbar-container {
     z-index: 10 !important;
 
