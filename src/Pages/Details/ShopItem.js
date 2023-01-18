@@ -1,11 +1,12 @@
 import React from 'react'
 import { useParams } from 'react-router'
 import ShopComponents from '../../Components/Forms/ShopComponents';
+import CartCount from '../../Components/ui/CartCount';
 import SocialMedia from '../../Components/ui/SocialMedia';
 import ShopData from '../../Data/ShopData';
 
 
-export default function ShopItem() {
+export default function ShopItem({handleClick}) {
     let {shopId} = useParams();
 
     let shopValue = ShopData.find((item) => item.id == shopId);
@@ -24,6 +25,8 @@ export default function ShopItem() {
                     <h3 className='fs-1 fw-normal'>{shopValue.title}</h3>
                     <p className='fs-2 text-success lh-lg'>{shopValue.price}</p>
                     <p className='fs-6 lh-base text-secondary'>{shopValue.body}</p>
+                    <CartCount />
+                    <button type="button" className="btn btn-success ms-5 btn-lg" onClick={() => handleClick(shopValue)}>Add to Cart</button>
                     <p className='mb-0 lh-lg text-secondary'>SKU: 00{shopValue.id}</p>
                     <p className='mb-0 lh-lg text-secondary'>Category: {shopValue.category}</p>
                     <p className='mb-0 lh-lg text-secondary'>tags: {shopValue.tags}</p>

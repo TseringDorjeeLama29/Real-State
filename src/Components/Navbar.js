@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-export default function Navbar() {
+export default function Navbar({size}) {
   return (
     <>
       <div className="Navbar-container container-fluid bg-black p-4 position-sticky top-0">
@@ -117,7 +117,8 @@ export default function Navbar() {
           <div className="col-lg-3 d-none d-lg-block">
             <div className="navbar-right"></div>
              <ul className='mb-0'>
-                 <li className='border-start d-inline'><Link to="" className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i></Link></li>
+                 <li className='border-start d-inline cart'><Link to={'/cart'} className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i><span>{size}</span></Link></li>
+                 {/* <li className='position-relative cart'><Link to={"/cart"} className='cart-2'><i class="fa-solid fa-cart-shopping"></i><span>{size}</span></Link></li> */}
                  <li className='d-inline'><Link className='btn btn-dark text-decoration-none px-4' to="">Add Listings +</Link></li>
                 <li className='d-inline'><Link to="" className=' text-decoration-none px-4'><i className="bi bi-person-fill text-white"></i></Link></li>
               </ul>

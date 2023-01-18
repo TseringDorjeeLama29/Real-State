@@ -10,6 +10,7 @@ const ShopData = [
         "tags": " fashion ",
         "Weight":	"5 kg",
         "Dimensions":"50 × 50 × 70 cm",
+        "amount": 1,
     },
     {
         "id": 2,
@@ -22,6 +23,7 @@ const ShopData = [
         "tags": "  organic",
         "Weight":	"2 kg",
         "Dimensions":"50 × 50 × 70 cm",
+        "amount": 1,
     },
     {
         "id": 3,
@@ -34,6 +36,7 @@ const ShopData = [
         "tags": " mettalics",
         "Weight":	"3 kg",
         "Dimensions":"50 × 50 × 70 cm",
+        "amount": 1,
     },
     {
         "id": 4,
