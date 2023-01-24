@@ -10,6 +10,7 @@ import FeatureItemsDetails from './Pages/Details/FeatureItemsDetails';
 import Shop from './Pages/Forms/Shop';
 import ShopItem from './Pages/Details/ShopItem';
 import Cart from './Components/ui/Cart';
+// import Login from './Components/ui/Login';
 
 export default function Main() {
   const [cart, setCart] = useState([]);
@@ -56,6 +57,7 @@ export default function Main() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/shopItem/:shopId" element={<ShopItem handleClick={handleClick} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart = {setCart} handleChange = {handleChange} />} />
+        {/* <Route path="/login" element={<Login/>} /> */}
       </Routes>
       {
         warning && <div className='warning'>Item is already added to your cart</div>
