@@ -13,7 +13,7 @@ body {
 }
 
 // .navbar-bar {
-//     width: 0% !important;
+//     width: 80% !important;
 // }
 
 .navbar_togglerid {
@@ -56,15 +56,16 @@ body {
     z-index: 555;
   }
 
+  .nav-bottom {
+    @include media('>tablet') {
+        border-bottom: none !important;
+    }
+  }
+
 .Navbar-container {
     z-index: 10 !important;
 
     .Navbar-flex {
-
-        @include media('<=desktop') {
-            display: flex !important;
-            flex-wrap: nowrap;
-        }
         .navbar-img img {
             @include media('<=phone') {
                 width: 150px !important;

@@ -21,53 +21,53 @@ export default function Navbar({size}) {
                 </button>
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
-                      <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
+                      <Link className=" nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Home
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
-                        <li><hr className="dropdown-divider" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to="#">Main Home</Link></li>
-                        <li><Link to={"/realState"} className="dropdown-item text-secondary lh-lg" >Real State Agency</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Apartments Home</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Map Home</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">City Properties</Link></li>
+                        <li className=''><hr className="dropdown-divider" /></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-white lh-lg" to="#">Main Home</Link></li>
+                        <li className='border-bottom pb-1'><Link to={"/realState"} className="dropdown-item text-secondary lh-lg" >Real State Agency</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Apartments Home</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Map Home</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">City Properties</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
                       <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Pages
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><Link className="dropdown-item text-white" to={"/aboutus"}>About Us</Link></li>
-                        <li><Link className="dropdown-item text-secondary" to="#">Process</Link></li>
-                        <li><Link className="dropdown-item text-secondary" to="#">Pricing Packages</Link></li>
-                        <li><Link className="dropdown-item text-secondary" to="#">Contact Us</Link></li>
-                        <li><Link className="dropdown-item text-secondary" to="#">404 page</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-white" to={"/aboutus"}>About Us</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary" to="#">Process</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary" to="#">Pricing Packages</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary" to="#">Contact Us</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary" to="#">404 page</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
                       <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Listings
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to={'/location'}>Property List</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Profiles</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agency</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Agent</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Owner</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">User Dashboard</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-white lh-lg" to={'/location'}>Property List</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Profiles</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Agency</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Agent</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Owner</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">User Dashboard</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
                       <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Blog
                       </Link>
@@ -81,31 +81,31 @@ export default function Navbar({size}) {
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
                       <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Shop
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to={'/shop'}>Shop List</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Single</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Layouts</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Pages</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-white lh-lg" to={'/shop'}>Shop List</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Single</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Layouts</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Shop Pages</Link></li>
                       </ul>
                     </li>
                   </ul>
                   <ul className="navbar-nav  ms-2 mb-2 mb-lg-0 ">     
-                    <li className="nav-item dropdown navbar-dropdown">
+                    <li className="nav-item dropdown navbar-dropdown border-bottom lh-lg pb-1 nav-bottom">
                       <Link className="nav-link active text-white" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Elements
                       </Link>
                       <ul className="dropdown-menu navbar-dropdown-item bg-black p-3">
                         <li><hr className="dropdown-divider lh-lg" /></li>
-                        <li><Link className="dropdown-item text-white lh-lg" to="#">Property</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Presentation</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Infographic</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Classic</Link></li>
-                        <li><Link className="dropdown-item text-secondary lh-lg" to="#">Typographic</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-white lh-lg" to="#">Property</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Presentation</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Infographic</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Classic</Link></li>
+                        <li className='border-bottom pb-1'><Link className="dropdown-item text-secondary lh-lg" to="#">Typographic</Link></li>
                       </ul>
                     </li>
                   </ul>
@@ -113,11 +113,11 @@ export default function Navbar({size}) {
               </div>
             </nav>
           </div>
-          <div className="col-lg-3 d-none d-lg-block">
+          <div className="col-lg-3 text-end d-lg-block">
             <div className="navbar-right"></div>
              <ul className='mb-0'>
                  <li className='border-start d-inline cart'><Link to={'/cart'} className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i><span>{size}</span></Link></li>
-                 <li className='d-inline'><Link className='btn btn-dark text-decoration-none px-4' to="">Add Listings +</Link></li>
+                 <li className='d-inline d-none d-lg-inline-block'><Link className='btn btn-dark text-decoration-none px-4' to="">Add Listings +</Link></li>
                 <li className='d-inline px-4'><button type='button' className='bg-dark' data-bs-target='#exampleModalToggle' data-bs-toggle='modal'>  <i className="bi bi-person-fill text-white"></i></button></li>
               </ul>
           </div>
