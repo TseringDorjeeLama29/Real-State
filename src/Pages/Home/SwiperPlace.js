@@ -18,6 +18,20 @@ export default function SwiperPlace() {
                       delay:2500,
                       disableOnInteraction:false,
                   }}
+                  breakpoints={{
+                    420: {
+                      slidesPerView : 1,
+                      spaceBetween : 20,
+                    },
+                    650: {
+                      slidesPerView : 2,
+                      spaceBetween : 20,
+                    },
+                    1024: {
+                      slidesPerView : 3,
+                      spaceBetween : 50,
+                    },
+                  }}
                   modules={[Autoplay]}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}

@@ -6,17 +6,17 @@ export default function Navbar({size}) {
   return (
     <>
       <div className="Navbar-container container-fluid bg-black p-4 position-sticky top-0">
-        <div className="Navbar-flex row text-white align-items-center">
+        <div className="Navbar-flex row navbar-bar text-white align-items-center">
           <div className="navbar-img col-lg-2 text-lg-start text-center">
             <Link to={"/"} className=""><img src={require("../Assets/img/Logo.png")} alt="Logo" className='footer-logo ' /></Link>
           </div>
           <div className="col-lg-2 border-start d-none d-lg-block">
             <p className='mb-0 ms-4 '>Unique Places to Stay</p>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 navbar-bar">
             <nav className="navbar navbar-expand-lg bg-black ">
               <div className="container-fluid ">
-                <button className="navbar-toggler bg-white fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar_togglerid navbar-toggler bg-white fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className="navbar-main collapse navbar-collapse ms-5" id="navbarSupportedContent">
@@ -112,14 +112,13 @@ export default function Navbar({size}) {
                 </div>
               </div>
             </nav>
-
           </div>
           <div className="col-lg-3 d-none d-lg-block">
             <div className="navbar-right"></div>
              <ul className='mb-0'>
                  <li className='border-start d-inline cart'><Link to={'/cart'} className=' text-decoration-none px-4'><i className="bi bi-basket3 text-white"></i><span>{size}</span></Link></li>
                  <li className='d-inline'><Link className='btn btn-dark text-decoration-none px-4' to="">Add Listings +</Link></li>
-                <li className='d-inline'><button type='button' className='bg-dark' data-bs-target='#exampleModalToggle' data-bs-toggle='modal'>  <i className="bi bi-person-fill text-white"></i></button></li>
+                <li className='d-inline px-4'><button type='button' className='bg-dark' data-bs-target='#exampleModalToggle' data-bs-toggle='modal'>  <i className="bi bi-person-fill text-white"></i></button></li>
               </ul>
           </div>
         </div>

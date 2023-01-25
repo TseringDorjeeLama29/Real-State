@@ -29,7 +29,6 @@ export default function BannerEnd() {
                             </div>
                         ))
                     }
-                    <p className='heaven-text position-absolute '>from Heaven Apartments </p>
                 </div>
             </div>
         </>

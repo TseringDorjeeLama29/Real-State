@@ -12,6 +12,14 @@ body {
     background: #fff;
 }
 
+// .navbar-bar {
+//     width: 0% !important;
+// }
+
+.navbar_togglerid {
+    bottom: 0px !important;
+}
+
 .btn-component {
     @include media('>phone', '<=tablet') {
         margin: 0 !important;
@@ -60,10 +68,12 @@ body {
         .navbar-img img {
             @include media('<=phone') {
                 width: 150px !important;
+                // margin: 0px 182px;
             }
 
             @include media('>phone', '<=tablet') {
                 width: 158px !important;
+                // margin: 0px 182px;
             }
 
             @include media('>tablet', '<=992px') {
